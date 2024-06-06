@@ -97,11 +97,6 @@ header .icons a{
 header .icons a:hover{
     color:var(--pink);
 }
-
-header #toggler{
-    display: none;
-}
-
 header .fa-bars{
     font-size: 3rem;
     color: #333;
@@ -236,15 +231,16 @@ header .fa-bars{
     line-height: 1.5;
 }
 .contents {
-    height: 480px;
-    margin-top: 50px;
-}
-.contents-item{
-    float:left;
-    margin-right: 350px;
-    width: 20px;
-    border: 3px solid #fff;
-}
+        display: flex;
+        height: 480px;
+        margin-top: 50px;
+    }
+/* .contents-item{
+        float:left;
+        margin-right: 350px;
+        width: 20px;
+        border: 3px solid #fff;
+ } */
 
 .container h1{
     font-size: 4rem;
@@ -377,25 +373,6 @@ header .fa-bars{
 .footer .credit span{
     color: var(--pink);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width:991px){
     html{
